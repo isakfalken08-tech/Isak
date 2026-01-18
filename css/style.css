@@ -1,1 +1,99 @@
-/* Denna fil skall innehålla din CSS kod */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f6efe8;
+    color: #333;
+}
+
+/* HEADER */
+.site-header {
+    background: #b58b63;
+    color: white;
+    padding: 20px;
+}
+
+.site-header nav a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* STARTSIDA GRID */
+.page-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto 1fr auto;
+    gap: 20px;
+    padding: 20px;
+}
+
+main {
+    background: white;
+    padding: 20px;
+}
+
+aside img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    background: #a5b58d;
+    color: white;
+    text-decoration: none;
+}
+
+/* MENY – GRID + FLEX */
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tag {
+    align-self: flex-start;
+    background: #a5b58d;
+    color: white;
+    padding: 5px 8px;
+    font-size: 12px;
+}
+
+/* OM OSS GRID */
+.about-grid {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+}
+
+.about-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+/* FOOTER */
+footer {
+    background: #b58b63;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
